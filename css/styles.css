@@ -11232,7 +11232,7 @@ body {
 
 .nav-link {
   padding: 0.5rem 1rem;
-  color: #ffffff; /* Color de los enlaces*/
+  color: #ffffff;
   text-transform: uppercase;
   transition: color 0.3s ease; 
 }
@@ -11261,6 +11261,6 @@ body {
 }
 
 .custom-icon-color {
-  color: #722626; /* Reemplaza con el color que prefieras */
+  color: #722626;
 }
 
