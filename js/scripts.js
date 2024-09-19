@@ -7,12 +7,13 @@ window.addEventListener('DOMContentLoaded', event => {
             return;
         }
         
+        // Eliminar clase navbar-shrink para que sea siempre transparente
         if (window.scrollY === 0) {
             navbarCollapsible.classList.remove('navbar-shrink');
-            navbarCollapsible.style.backgroundColor = 'transparent'; 
+            navbarCollapsible.style.backgroundColor = 'transparent'; // Mantener transparente al inicio
         } else {
             navbarCollapsible.classList.add('navbar-shrink');
-            navbarCollapsible.style.backgroundColor = 'transparent'; 
+            navbarCollapsible.style.backgroundColor = 'transparent'; // También transparente al scrollear
         }
     };
     
