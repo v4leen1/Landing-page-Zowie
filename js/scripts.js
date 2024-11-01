@@ -47,3 +47,4 @@ var navbarShrink = function () {
     if (!navbarCollapsible) {
         return;
     }
+}
