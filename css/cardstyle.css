@@ -1,0 +1,70 @@
+/* Contenedor de los productos */
+#productosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #5c0f0f;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Tarjeta de cada producto */
+.card {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.card .precio {
+    font-weight: bold;
+    color: #db1630;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.card .stock {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: calc(25% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px);
+    }
+}

@@ -11233,7 +11233,7 @@ body {
 
 .nav-link {
   padding: 0.5rem 1rem;
-  color: #ffffff; /* Color de los enlaces*/
+  color: #ffffff; 
   text-transform: uppercase;
   transition: color 0.3s ease; 
 }
@@ -11262,7 +11262,7 @@ body {
 }
 
 .custom-icon-color {
-  color: #722626; /* Reemplaza con el color que prefieras */
+  color: #722626;
 }
 
 .card {
@@ -11387,4 +11387,94 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+/* Sección #contacto para centrar y ajustar el formulario */
+#contacto {
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Estilos de glassmorphism para el formulario */
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Sección #contacto para centrar y ajustar el formulario */
+#contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Estilos de glassmorphism para el formulario */
+.glassmorphic-form {
+  background: rgba(78, 20, 20, 0.3); /* Fondo rojo oscuro semitransparente */
+  border: 1px solid rgba(78, 20, 20, 0.6);
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(78, 20, 20, 0.5);
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-primary {
+  background-color: #4e1414;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #3a0f0f;
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
 }

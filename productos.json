@@ -1,0 +1,38 @@
+[
+    {
+      "nombre": "Mouse FK",
+      "descripcion": "Mouse gamer con diseño simétrico para Esports, Perfil bajo,  Sin drivers; Plug and PlaySensor 3360",
+      "precio": 100000,
+      "stock": 20,
+      "imagen": "https://image.benq.com/is/image/benqco/01-fk1-b-fk-black-top?$ResponsivePreset$&fmt=png-alpha"
+    },
+    {
+      "nombre": "Mouse EC",
+      "descripcion": "Mouse gamer con diseño asimétrico para Esports, Sin Drivers; Plug and Play, Sensor 3360",
+      "precio": 200000,
+      "stock": 15,
+      "imagen": "https://image.benq.com/is/image/benqco/01-ec1-top?$ResponsivePreset$&fmt=png-alpha"
+    },
+    {
+      "nombre": "Mouse ZA",
+      "descripcion": "Mouse gamer simétrico para Esports, Perfil más alto, Sin drivers; plug and play, Sensor 3360",
+      "precio": 150000,
+      "stock": 10,
+      "imagen": "https://image.benq.com/is/image/benqco/01-za12-b-za-black-top?$ResponsivePreset$&fmt=png-alpha"
+    },
+    {
+      "nombre": "Mouse S1",
+      "descripcion": "Mouse gamer simétrico para Esports, Diseño más corto, Sin drivers; Plug & Play, Sensor 3360",
+      "precio": 250000,
+      "stock": 5,
+      "imagen": "https://image.benq.com/is/image/benqco/01-S1-top-2?$ResponsivePreset$&fmt=png-alpha"
+    },
+    {
+      "nombre": "Mouse S2 Blanco",
+      "descripcion": "Mouse gamer simétrico para Esports, Diseño más corto, Sin drivers; Plug & Play, Sensor 3360",
+      "precio": 300000,
+      "stock": 6,
+      "imagen": "https://image.benq.com/is/image/benqco/01-s2-s-white-top?$ResponsivePreset$&fmt=png-alpha"
+    }
+  ]
+  
